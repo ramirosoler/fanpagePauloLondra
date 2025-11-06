@@ -1,5 +1,5 @@
 // ===============================
-// 📸 LIGHTBOX (Galería de imágenes)
+// LIGHTBOX (Galería de imágenes)
 // ===============================
 const images = document.querySelectorAll('.galeria img');
 const lightbox = document.getElementById('lightbox');
@@ -42,7 +42,7 @@ elementos.forEach(el => {
 });
 
 // ===============================
-// 🦁 ANIMACIÓN DEL TÍTULO PRINCIPAL (hover)
+//  ANIMACIÓN DEL TÍTULO PRINCIPAL (hover)
 // ===============================
 const titulo = document.querySelector('h1');
 
@@ -56,7 +56,7 @@ if (titulo) {
 }
 
 // ===============================
-// 📨 FORMULARIO DE CONTACTO
+// FORMULARIO DE CONTACTO
 // ===============================
 const form = document.getElementById('formContacto');
 const mensaje = document.getElementById('mensajeEnviado');
@@ -76,4 +76,5 @@ if (form && mensaje) {
     }, 4000);
   });
 }
+
 
